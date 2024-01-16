@@ -1,0 +1,30 @@
+/* profile.css */
+  
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    color: rgb(229,49,85);
+  }
+  
+  .personal-details {
+    margin: 10px; /* Add a 10px margin space to personal details */
+  }
+
+  
+  
+  
+  /* 
+    The CSS rule below was commented by the integration team because it affects all the divs
+    of entire modules. Please specify the classnames of this div's where you want this CSS
+    rule to be applied and then uncomment it.
+  */
+  /* div {
+    margin-bottom: 15px;
+  } */
+  
+  strong {
+    margin-right: 10px;
+  }
