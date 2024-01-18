@@ -11,7 +11,7 @@ function WorkExperience() {
   // console.log(DB.data[0])
   return (
     <div className='w-screen h-screen'>
-    <Dashboard setCategory={setCategory}/>
+    <Dashboard setCategory={setCategory} category={category}/>
     {category?(<Records admin={faculty_role=="admin"?true:false} category={category} email={email}/>):<></>}
     </div>
   )
